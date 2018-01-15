@@ -1,0 +1,231 @@
+.ng-nav-bar{
+    min-width:1190px;
+    border-bottom:2px solid #333;
+    height:36px;
+    z-index:7670;
+    position:relative;
+    width:100%;
+    background:#fff;
+    overflow: visible;
+}
+.ng-sort{
+    position: absolute;
+    top:0;left:50%;
+    z-index: 7675;
+    margin-left: -595px;
+}
+.ng-sort .ng-all-hook{
+    position: relative;
+    display: block;
+    font-size:14px;
+    padding-left: 10px;
+    color:#fff;
+    z-index:7674;
+    background:#fa0;
+    height:36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.ng-sort .ng-all-hook span{
+    /*display:inline-block;*/
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.ng-sort ul.sort-list{
+    position: relative;
+    height:442px;
+    width:190px;
+    padding-bottom:8px;
+    z-index: 7673;
+    background: #2b2b2b;
+    padding-top:2px;
+}
+.ng-sort ul.sort-list li{
+    height:32px;line-height:32px;
+    border-top:1px solid #333;
+    border-bottom:1px solid #252525;
+    float: left;
+    width:180px;
+    padding-left:10px;
+    overflow: hidden;
+    position: relative;
+}
+.ng-sort ul.sort-list li a{
+    color:#eee;
+    float: left;
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+.ng-sort ul.sort-list li .one{
+    padding-left:25px;
+}
+.ng-sort ul.sort-list li:hover{
+    background: #fff;
+}
+.ng-sort ul.sort-list li a:hover{
+    color:#333;
+    text-decoration: underline;
+}
+.ng-sort img{
+    position: absolute;
+    top:0;left:5px;
+}
+.ng-nav-index{
+    margin-left:-405px;
+    width:785px;
+    z-index:7669;
+    position: absolute;
+    left:50%;
+    padding-left: 10px;
+    height:36px;
+    line-height: 36px;
+
+}
+.ng-nav-index ul.ng-nav li{
+    float: left;
+    display: block;
+    height:36px;
+    line-height: 36px;
+    padding:0 12px 0 13px;
+}
+.ng-nav-index ul.ng-nav li a{
+    position: relative;
+    float: left;
+    color:#333;
+    font-size:15px;
+}
+.ng-nav-index ul.ng-nav li a:hover{
+    color:#ff6600;
+    text-decoration: underline;
+}
+.ng-nav-index ul.ng-nav li a i{
+    position: absolute;
+    display: block;
+    height:16px;
+    width:16px;
+    background:url("../images/npbg.png") no-repeat;
+    right:-18px;
+    top:3px;
+    overflow: hidden;
+}
+.ng-nav-index ul.ng-nav li a i.hot{
+    background-position: 0 -205px;
+}
+.ng-nav-index ul.ng-nav li a i.new{
+    background-position: -16px -205px;
+}
+.ng-nav-right-txtact{
+    display: block;
+    height:38px;
+    line-height: 38px;
+    position: absolute;
+    left:50%;
+    margin-left: 395px;
+    width:200px;
+    text-align: right;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.ng-nav-right-txtact a{
+    color:#f90;
+}
+.ng-nav-right-txtact a:hover{
+    text-decoration: underline;
+}
+
+/*Òþ²ØÄ¿Â¼*/
+.ng-sort .ng-sort-detail-border{
+    border:1px solid #333;
+    height:448px;
+    left:189px;
+
+}
+.ng-sort .ng-sort-detail{
+    z-index:7672;
+    position: absolute;
+    top:38px;
+    left:190px;
+    overflow: hidden;
+    background:#fff;
+}
+.ng-sort .ng-sort-detail .sort-chanel{
+    display: none;
+    height:39px;
+    border-bottom:1px solid #eee;
+    margin:0 15px;
+    overflow: hidden;
+}
+.ng-sort .ng-sort-detail .cate-list{
+    height:100%;
+    width:590px;
+    msrgin-top:12px;
+    padding-left: 20px;
+    overflow: hidden;
+    float: left;
+}
+.ng-sort .ng-sort-detail dl{
+    float:left;
+    height:auto;
+    margin-bottom:8px;
+    overflow: hidden;
+    width:560px;
+}
+.ng-sort .ng-sort-detail dt{
+    float: left;
+    width:90px;
+    height:20px;
+    line-height:20px;
+    font-weight:700;
+    padding-left:10px;
+    padding-top:8px;
+    background:url("../images/npbg.png") -270px -41px no-repeat;
+}
+.ng-sort .ng-sort-detail dt a{
+    color:#333;
+}
+.ng-sort .ng-sort-detail dl.lastdl dd{
+    border:0;
+}
+.ng-sort .ng-sort-detail dd{
+    float: left;
+    width:460px;
+    font:12px/1.5 arial;
+    line-height:20px;
+    overflow: hidden;
+    border-top:1px solid #eee;
+    padding-top:8px;
+}
+.ng-sort .ng-sort-detail dd a{
+    color:#666;
+    margin-right:15px;
+    display: inline-block;
+}
+.ng-sort .ng-sort-detail dd a.orange{
+    text-decoration: underline;
+    color:#f60;
+}
+.ng-sort .ng-sort-detail dd a:hover{
+    text-decoration: underline;
+    color:#f60;
+}
+.ng-sort-detail a.ng-close-sort{
+    position: absolute;
+    display: inline-block;
+    height:35px;
+    width:35px;
+    text-align:center;
+    line-height:35px;
+    color:#989898;
+    right:1px;
+    left:1px;
+    font-size:22px;
+    cursor: pointer;
+}
+
