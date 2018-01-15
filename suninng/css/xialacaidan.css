@@ -1,0 +1,118 @@
+.ng-toolbar .ng-sn-site-nav{
+    padding:20px 0;
+    width:988px;
+}
+.ng-toolbar .ng-d-box{
+    position: absolute;
+    top:35px;
+    left:0;
+    border-image:none;
+    border:1px solid #ddd;
+    background: #ffffff;
+    z-index: 7691;
+}
+.ng-toolbar dl.sn-site-list{
+    width:176px;
+    padding-left:20px;
+    border-right:1px solid #eee;
+    float: left;
+
+}
+.ng-toolbar dl.sn-site-list dt{
+    width:100%;
+    height:25px;
+    line-height:17px;
+    font-family:"Microsoft Yahei";
+    font-size: 14px;
+}
+.ng-toolbar dl.sn-site-list dd{
+    width:100%;
+    overflow: hidden;
+}
+.ng-toolbar dl.sn-site-list dd p{
+    width:78px;
+    height:25px;
+    line-height:25px;
+    float: left;
+}
+.ng-toolbar dl.sn-site-list dd a{
+    display: inline-block;
+    position: relative;
+}
+.ng-toolbar dl.sn-site-list dd a:hover{
+    color:#f60;
+    text-decoration: underline;
+}
+
+.ng-toolbar .ng-down-box{
+    width:81px;
+    padding-bottom: 5px;
+}
+.ng-toolbar .ng-down-box a{
+    width:71px;
+    height:30px;
+    line-height:30px;
+    padding-left:10px;
+    display: block;
+}
+
+.ng-toolbar .ng-mb-box{
+    padding:15px;
+    left:-13px;
+    width:243px;
+    height:210px;
+}
+.ng-toolbar .ng-mb-box .ng-code-box{
+    width:132px;
+    height:162px;
+    margin-bottom:10px;
+    float: left;
+    display: inline-block;
+    padding-right:15px;
+    border-right:1px solid #eee;
+}
+.ng-toolbar .ng-d-box p.ng-tip{
+    height:30px;
+    text-align: center;
+    line-height:25px;
+}
+.ng-toolbar .ng-mb-box .ng-code-box img{
+    width:132px;
+    height:132px;
+    display: block;
+}
+.ng-toolbar .ng-mb-box .ng-app-box{
+    width:80px;
+    height:132px;
+    overflow: hidden;
+    padding-top:30px;
+    padding-left: 15px;
+}
+.ng-toolbar .ng-mb-box .ng-app-box .ng-app-list{
+    width:98px;
+    height:89px;
+    overflow: hidden;
+}
+.ng-toolbar .ng-mb-box .ng-app-box a.ng-app{
+    width:32px;
+    height:32px;
+    overflow: hidden;
+    margin-right:15px;
+    margin-bottom:20px;
+    float: left;
+}
+.ng-toolbar .ng-mb-box .ng-app-box .ng-app-box img{
+    width:32px;
+    height:32px;
+    display: block;
+}
+.ng-toolbar a.ng-app-btn{
+    background:#f3f3f3;
+    display: inline-block;
+    margin-top:18px;
+    line-height:18px;
+    text-align: center;
+    height:24px;
+    width:80px;
+    border-radius:1px;
+}
