@@ -147,7 +147,7 @@ a:hover {
     bottom: 30px
 }
 
-.next-arrow {
+.taoyong {
     width: 30px;
     height: 30px;
     position: relative;
@@ -155,7 +155,7 @@ a:hover {
     top: 0
 }
 
-.next-arrow span a {
+.taoyong span a {
     position: absolute;
     background: none;
     left: 0;
@@ -207,7 +207,7 @@ a:hover {
     }
 }
 
-.next-arrow span a:hover {
+.taoyong span a:hover {
     border-top: 1px solid #0f0;
     border-right: 1px solid #0f0
 }
@@ -519,7 +519,7 @@ a:hover {
     width: 230px;
     height: 147px;
     margin: 5px;
-    background: #fff;
+    /* background: #fff; */
     overflow: hidden
 }
 
@@ -528,7 +528,7 @@ a:hover {
     width: 230px;
     height: 147px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     transition: all .7s ease 0s;
     -webkit-transition: all .7s ease 0s;
     -moz-transition: all .7s ease 0s;
@@ -969,3 +969,43 @@ a:hover {
     color: #0f0
 }
 
+.page3-left-main-main.p4 li a{
+    background-position: center; 
+    background-color: rgba(0,0,0,0); 
+}
+
+.page3-left-main-main.p4 li:nth-of-type(1) a {
+    background-image: url(../images/h1.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(2) a {
+    background-image: url(../images/h2.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(3) a {
+    background-image: url(../images/h3.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(4) a {
+    background-image: url(../images/h4.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(5) a {
+    background-image: url(../images/h5.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(6) a {
+    background-image: url(../images/h6.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(7) a {
+    background-image: url(../images/h7.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(8) a {
+    background-image: url(../images/h8.jpeg)
+}
+
+.page3-left-main-main.p4 li:nth-of-type(9) a {
+    background-image: url(../images/h9.jpeg)
+}
