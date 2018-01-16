@@ -1,0 +1,20 @@
+/*初始化标签*/
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,dl,dd,form,input{
+	margin:0;
+	padding:0;
+	list-style:none;/*去除ul ol的初始样式*/
+	font-weight:normal;
+}
+img{
+	border:0;
+	}
+a{
+	color:#333;
+	text-decoration:none;
+}
+body{
+	font:14px "Microsoft yahei","Hiragion Sans GB";
+	color:#8c8c8c;
+	background-color:#fff;
+	
+}
